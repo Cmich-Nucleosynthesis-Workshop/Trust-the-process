@@ -1,0 +1,12 @@
+--t9_0 0.2 --rho_0 1.e7
+--root_factor 1.001
+--network_xml /input_directory/data_pub/out_he.xml
+--output_xml /output_directory/out_new.xml
+--zone_xml /input_directory/data_pub/Lodders_rp.xml
+--stepper ab6
+--t_end 1.e6
+--hydro_equil true
+--xml_steps 10
+--visc_rate 10.
+--accel_factor 0
+--lum_factor 1.
